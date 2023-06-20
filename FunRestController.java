@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class FunRestController {
 
-    // expose "/" that return "I am doing Spring Boot Project."
+    // expose "/" that return "I am doing CG Spring Boot Project."
 
     @GetMapping("/")
     public String sayHello() {
-        return "I am doing Spring Boot Project!";
+        return "I am doing CG Spring Boot Project!";
     }
 }
